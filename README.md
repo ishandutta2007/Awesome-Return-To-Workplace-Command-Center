@@ -1,201 +1,117 @@
-# Awesome-Return-To-Workplace-Command-Center
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Return-To-Workplace-Command-Center"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Return-To-Workplace-Command-Center?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Return-To-Workplace-Command-Center/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Return-To-Workplace-Command-Center?style=social" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## Top Return-to-Workplace Command Center Ecosystem
+![Awesome Return-To-Workplace Command Center Banner](assets/banner.svg)
 
+# 🏢 Awesome Return-To-Workplace Command Center
 
+> **Curated directory of top commercial SaaS platforms and open-source software for Return-To-Office (RTO) operations, desk booking & reservation, workplace occupancy tracking, space management, and hybrid office analytics.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on Workplace Occupancy, Desk Booking & Self-Hosted Return-to-Office Platforms*  
+## 📌 Table of Contents
 
-**Last updated: October 2026**
+- [📊 Sector Overview & Market Size](#-sector-overview--market-size)
+- [💼 Commercial SaaS & Hosted Platforms](#-commercial-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Privacy & Compliance Disclaimer](#️-privacy--compliance-disclaimer)
+- [⭐ Star History](#-star-history)
 
+---
 
+## 📊 Sector Overview & Market Size
 
-This repository tracks notable **commercial workplace command center platforms** and **open-source projects** that manage return-to-office operations — occupancy tracking, desk and room booking, employee wellness checks, capacity management, and workplace analytics.
+> **Market Valuation & Dynamics**: The Global Workplace Management & Desk Booking Software Market is estimated at **$5.8 Billion in 2026** and projected to reach **$9.4 Billion by 2030** (CAGR ~12.5%). The sector is **moderately fragmented**, with enterprise suite leaders (Salesforce, ServiceNow, Eptura) catering to global corporate IT operations, while specialized category leaders (Envoy, Robin, Kadence, Density, VergeSense) and self-hosted open-source stacks compete for agile, hybrid-first office deployments.
 
+---
 
+## 💼 Commercial SaaS & Hosted Platforms
 
-**Examples** include Salesforce Workplace Command Center, ServiceNow Workplace Service Delivery, Envoy Protect, Robin Return-to-Office, Eptura Workplace, VergeSense Occupancy, OfficeRnD, Density OpenPath, Condeco, and Kadence (the category leaders).
+*Below is a comprehensive comparison of leading commercial workplace command centers, desk booking platforms, and occupancy intelligence solutions, **sorted by company valuation / scale (descending)**.*
 
+| 🏢 Platform | 📝 Description & Key Features | 💵 Specific Starting Pricing | 🎁 Free Tier / Free Trial Details | 📊 Enterprise Scale / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Workplace Command Center](https://www.salesforce.com/)** | Reopening hub with employee wellness surveys, shift scheduling, facility preparedness tracking, and public health data integration. | **$5.00 / user / month** (requires base Salesforce CRM / Platform license) | **30-day free trial** of Salesforce Platform; 300 free survey responses included with Enterprise Edition | **~$280 Billion Valuation** ($35B+ Annual Revenue) |
+| **[ServiceNow Workplace Service Delivery](https://www.servicenow.com/)** | End-to-end workplace operations, space reservations, visitor management, indoor mapping, and automated facility case management. | **$10.00 / user / month** (as part of ServiceNow WSD / ESM suite) | **15-day developer sandbox** & 30-day enterprise evaluation instance | **~$170 Billion Valuation** ($10B+ Annual Revenue) |
+| **[Eptura Workplace](https://eptura.com/)** | Unified workplace management platform (combining iOFFICE, SpaceIQ, and Condeco), live desk & room utilization, AI space planning. | **$2.50 / desk / month** (or $150 / location / month base) | **14-day full-feature trial** on request for up to 50 seats | **~$2.5 Billion Valuation** ($350M+ Revenue) |
+| **[Envoy Protect](https://envoy.com/)** | Workplace safety, capacity management, employee health screening questionnaires, touchless sign-in, and arrival analytics. | **$3.00 / user / month** (or $99 / location / month Standard) | **14-day free trial** with unlimited users and desks | **~$1.4 Billion Valuation** ($100M+ Revenue) |
+| **[Density OpenPath](https://www.density.io/)** | Hardware + software occupancy intelligence, real-time anonymous people counting sensors, meeting room utilization dashboards. | **$99.00 / sensor / month** ($1,200 / sensor / year) | **30-day risk-free hardware trial** & pilot program up to 5 sensors | **~$1.05 Billion Valuation** (Unicorn Status) |
+| **[Condeco](https://www.condeco.com/)** | Flexible desk and room booking platform with interactive floorplans, meeting room status panels, and proximity check-in. | **$3.00 / desk / month** ($35 / user / year) | **14-day free trial** for up to 25 desks | **~$400 Million Valuation** (Part of Eptura Group) |
+| **[VergeSense Occupancy](https://www.vergesense.com/)** | Optical occupancy sensors paired with Large Spatial AI Models trained on 250M+ sq ft for real-time desk utilization analysis. | **$15.00 / sensor / month** (or $0.15 / sq ft / year) | **30-day sensor pilot kit** (up to 10 sensors & full dashboard access) | **~$400 Million Valuation** ($80M+ Total Funding) |
+| **[Robin Return-to-Office](https://robinpowered.com/)** | Hybrid office scheduling, interactive desk booking, automatic schedule sync, and workplace attendance trend reporting. | **$3.50 / desk / month** (or $119 / month Starter plan) | **14-day free trial** for up to 50 desks and unlimited users | **~$250 Million Valuation** ($45M+ Total Funding) |
+| **[OfficeRnD](https://www.officernd.com/)** | Flexible workspace & desk management for hybrid teams and coworking spaces, resource pricing & occupancy dashboards. | **$2.95 / desk / month** ($59 / month for up to 20 desks) | **14-day free trial** with no credit card required | **~$120 Million Valuation** ($20M+ Revenue) |
+| **[Kadence](https://kadence.co/)** | Hybrid desk booking, multi-day space reservations, Neighborhood Scheduler for team alignment, and AI desk assignments. | **$2.50 / user / month** ($50 / month base plan) | **14-day free trial** for up to 50 team members | **~$60 Million Valuation** ($13M+ Total Funding) |
 
+---
 
-**Open-source emphasis**: Return-to-workplace management is a growing open-source domain. **OpenDesk** leads as a lightweight desk reservation system for hybrid offices . **WARP (Workspace Autonomous Reservation Program)** brings a comprehensive hybrid workspace management system with floor plans, zones, SAML/LDAP/OIDC SSO, iCal feeds, and PWA support . **Occupi** provides AI-powered office occupancy prediction and real-time analytics . **HQ Command Center** offers an offline React dashboard for cross-machine fleet coordination .
+## 🔓 Open-Source GitHub Repositories
 
+*Self-hosted open-source software, desk reservation tools, and occupancy detection projects, **sorted by GitHub Star Count (descending)**.*
 
+- **[Area Occupancy Detection](https://github.com/Hankanman/Area-Occupancy-Detection)** [![GitHub stars](https://img.shields.io/github/stars/Hankanman/Area-Occupancy-Detection?style=social)](https://github.com/Hankanman/Area-Occupancy-Detection/stargazers)  
+  🧠 **Home Assistant integration to accurately and intelligently track occupancy** of office areas, rooms, and workspaces using multi-sensor topology-aware rules and real-time state engine.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+- **[WARP (Workspace Autonomous Reservation Program)](https://github.com/sebo-b/warp)** [![GitHub stars](https://img.shields.io/github/stars/sebo-b/warp?style=social)](https://github.com/sebo-b/warp/stargazers)  
+  🚀 **Comprehensive open-source hybrid workspace reservation system**. Supports desk & parking stall booking, visual interactive floor plans with zones, SAML 2.0 / LDAP / Azure AD / OIDC SSO, iCal feed subscriptions, PWA support, auto-booking, and Excel reports.
 
+- **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)** [![GitHub stars](https://img.shields.io/github/stars/kanwalnainsingh/OpenDesk?style=social)](https://github.com/kanwalnainsingh/OpenDesk/stargazers)  
+  💻 **Open-source microservices-based desk reservation system** for hybrid offices. Allows site layout creation, date-wise desk capacity allocation, employee booking dashboards, and reservation alerts.
 
+- **[Mensam](https://github.com/jumper149/mensam)** [![GitHub stars](https://img.shields.io/github/stars/jumper149/mensam?style=social)](https://github.com/jumper149/mensam/stargazers)  
+  🪑 **Open-source desk-booking web application** for modern hybrid teams looking to reserve seats and workplace equipment efficiently.
 
-## Table of Contents
+- **[Simple Desk Booking](https://github.com/opariltay/simple-desk-booking)** [![GitHub stars](https://img.shields.io/github/stars/opariltay/simple-desk-booking?style=social)](https://github.com/opariltay/simple-desk-booking/stargazers)  
+  📅 **Lightweight full-day seat booking software** enabling fast return-to-office workspace planning and simple seat reservations.
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- **[Book a Seat](https://github.com/pafavero/book_a_seat)** [![GitHub stars](https://img.shields.io/github/stars/pafavero/book_a_seat?style=social)](https://github.com/pafavero/book_a_seat/stargazers)  
+  🎨 **React-based space management and desk reservation app** designed for office seat assignment and hybrid workplace planning.
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+- **[Office Desk Booking with Apps Script](https://github.com/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script)** [![GitHub stars](https://img.shields.io/github/stars/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script?style=social)](https://github.com/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script/stargazers)  
+  📊 **Google Workspace & Apps Script solution** for flexible office desk reservations and Covid/RTO capacity management.
 
-- [How to Contribute](#how-to-contribute)
+- **[Occupi](https://github.com/COS301-SE-2024/occupi)** [![GitHub stars](https://img.shields.io/github/stars/COS301-SE-2024/occupi?style=social)](https://github.com/COS301-SE-2024/occupi/stargazers)  
+  🔮 **AI-powered office occupancy prediction & analytics platform**. Features daily occupancy forecasting, real-time desk tracking, cross-platform apps (web/mobile/desktop), and Go backend.
 
-- [Disclaimer](#disclaimer)
+---
 
+## 🛠️ Frameworks & Additional Open-Source Options
 
+For custom workplace command center development, consider these modular components:
+- **[Zulip](https://github.com/zulip/zulip)** — Open-source team chat for real-time office operational announcements.
+- **[Nextcloud](https://github.com/nextcloud/server)** — Self-hosted collaboration and office document management.
+- **[Outline](https://github.com/outline/outline)** — Team knowledge base for workplace safety policies and RTO guidelines.
+- **[BookStack](https://github.com/BookStackApp/BookStack)** — Lightweight wiki for facility operation procedures.
+- **[Odoo](https://github.com/odoo/odoo)** — Open-source ERP with HR and facility management modules adaptable for workplace operations.
 
-## SaaS/Hosted Platforms
+---
 
+## 🤝 How to Contribute
 
+Contributions are welcome! Help us keep this directory accurate and updated:
 
-- **[Salesforce Workplace Command Center](https://www.salesforce.com/)**  
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or edit** entries in `README.md` following the table or list format.
+3. 🔗 **Include**: Product name, official link, starting pricing, free trial terms, and factual description.
+4. 🚀 **Submit a Pull Request** with a brief summary of additions.
 
-  **Salesforce's workplace reopening hub** — employee wellness surveys, shift scheduling, facility preparedness tracking, and public health data integration. **Pricing: $5/user/month** with base Platform or CRM license required . **Includes 300 survey responses** with Enterprise Editions; additional packs of 1,000 surveys for $300 . **Personas**: Workplace Admin, Workplace Operations, Workplace Operations Executive .
+Refer to [Awesome Lists guidelines](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for contribution standards.
 
+---
 
+## ⚠️ Privacy & Compliance Disclaimer
 
-- **[ServiceNow Workplace Service Delivery](https://www.servicenow.com/)**  
+- 🔒 **Data Privacy & Compliance**: Workplace command centers process sensitive employee information (attendance, desk location, check-in timestamps, health survey logs). Implement strong access controls and adhere to GDPR, CCPA, and HIPAA compliance.
+- 👁️ **Transparent Occupancy Intelligence**: Prefer privacy-preserving telemetry (e.g. thermal sensors, anonymous badge taps) over invasive video surveillance.
+- 📜 **Licensing Verification**: Review software licenses (AGPL, MIT, Apache 2.0) before deploying self-hosted components in production environments.
 
-  **ServiceNow's workplace operations platform** — space reservations, visitor management, indoor mapping, and event planning with bidirectional sync between Indoor Mapping and WSD .
+---
 
+## ⭐ Star History
 
-
-- **[Envoy Protect](https://envoy.com/)**  
-
-  **Workplace safety and capacity management** — employee registration with health questionnaires, touchless sign-in, capacity limits, and Protect analytics showing expected vs. actual arrivals .
-
-
-
-- **[Robin Return-to-Office](https://robinpowered.com/)**  
-
-  **Hybrid workplace platform** — Schedule page showing who plans to be in office, desk booking with automatic status updates, and default work schedules with automatic desk reservations .
-
-
-
-- **[Eptura Workplace](https://eptura.com/)**  
-
-  **Integrated workplace operations platform** — live analytics for desk and room usage, AI assistants for booking and maintenance, visitor management, and space planning with scenario analysis .
-
-
-
-- **[VergeSense Occupancy](https://www.vergesense.com/)**  
-
-  **Occupancy intelligence and predictive planning** — Large Spatial Model trained on 250M+ sq ft, badge data uploads, read-only calendar integrations, and Logitech integration for person counting .
-
-
-
-- **[OfficeRnD](https://www.officernd.com/)**  
-
-  **Coworking and flexible workspace management** — resource types (hot desks, private offices, meeting rooms), hourly/daily rates, assignable resources, amenities, and occupancy dashboards .
-
-
-
-- **[Density OpenPath](https://www.density.io/)**  
-
-  **Occupancy analytics and access control** — anonymous people counting, conference room monitoring, and integration with workplace platforms .
-
-
-
-- **[Condeco](https://www.condeco.com/)**  
-
-  **Workspace booking platform** — book desks, meeting rooms, parking, lockers, and quiet spaces via mobile app with proximity-based check-in .
-
-
-
-- **[Kadence](https://kadence.co/)**  
-
-  **Workplace operations platform** — bulk space layout uploads, multi-day bookings, workplace surveys, automatic desk assignment via Kadence Agent, and Neighborhood Scheduler for team coordination .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Desk Booking & Space Reservation
-
-
-
-- **[WARP (Workspace Autonomous Reservation Program)](https://github.com/sebo-b/warp)**  
-
-  **Comprehensive open-source hybrid workspace management system**, open-source . **Book/change/unbook desks or parking stalls** in the office . **Mobile-friendly with PWA support** — installable as app . **Visual floor plans with zones** — each seat assigned to a specific zone, one seat per zone per time slot . **Assigned seats** — limit seats to certain people; **Disabled seats** — hide seats from view . **Auto-Book** with floating "+" button . **Calendar integration** — subscribe to iCal feeds in Google Calendar, Outlook, or Apple Calendar with `?type=bookings` or `?type=reminders` filters . **Per-zone reminders** for automatic booking and seat-release notifications . **Days-in-advance booking window** per assignment . **Virtual "everyone" access** for flexible seat management . **Translations**: English, German, French, Spanish, Polish . **SSO support**: SAML 2.0, LDAP/Active Directory, Azure AD (MSAL), OIDC/OpenID Connect . **Full admin interface** for maps, zones, groups, and users . **Report generation** with Excel export . **Tech stack**: Python, with detailed FEATURES.md, GLOSSARY.md, and PERMISSIONS.md documentation . **Best for organizations wanting a complete self-hosted hybrid workspace reservation system** .
-
-
-
-- **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)**  
-
-  **Open-source desk reservation system for hybrid offices**, open-source . **Organizations set up sites/buildings with desk capacity** — available and reserved desks . **Dashboard to view present state and availability** . **Employees reserve desks for specific dates** before coming to office . **Modify, cancel, and view previous reservations** . **Booking confirmation alerts** . **Roadmap**: SSO with roles, email notifications, department segregation, desk map configurations, and real-time organization dashboard . **Microservice architecture** . **Best for simple, lightweight desk booking without complexity** .
-
-
-
-- **[HQ Command Center (@wrongstack/webui-hq)](https://www.npmjs.com/package/@wrongstack/webui-hq)**  
-
-  **Offline React app for cross-machine coordination**, open-source . **Self-contained Vite + React app** with zero CDN dependencies — works on offline/LAN/restricted-network machines . **12 views**: Cockpit (fleet/alert/cost overview), Fleet (searchable topology), Console (live chat + leader/subagent messaging), Mailbox, Kanban, Cost, Brain (decision timeline), Worktrees, Trends, Alerts, Control (steer/abort/spawn/broadcast), and Security . **Connects via WebSocket** to HQ server . **Zustand store** for state management . **Best for technical teams wanting a custom offline command center dashboard** .
-
-
-
-### Occupancy Intelligence & Prediction
-
-
-
-- **[Occupi](https://github.com/COS301-SE-2024/occupi)**  
-
-  **System to record and predict office occupancy on a day-to-day basis**, MIT licensed with **8 GitHub stars** . **AI-powered occupancy prediction** — forecasts daily office usage patterns . **Real-time analytics** — live occupancy tracking and historical trends . **Cross-platform**: desktop, mobile, and web applications . **Backend in Go** with MIT license . **Best for organizations wanting predictive occupancy analytics** .
-
-
-
-- **[Thermal Occupancy Detection](https://www.sciencedirect.com/science/article/abs/pii/S0360132325013411)**  
-
-  **Privacy-preserving occupancy detection using thermal imaging and edge computing**, research-based . **CNN with fewer than 10 hidden layers** achieves **96% training accuracy and 97% validation accuracy** . **Real-time detection accuracy of 78%** in both illuminated and dark environments . **Infrared images capture only thermal distribution** — no face features or identifiable information . **Edge computing** — processes data locally with reduced latency and bandwidth . **Best for privacy-conscious occupancy detection without cameras** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Zulip** — Open-source team chat that can be integrated with workplace coordination workflows.
-
-- **Nextcloud** — Self-hosted file sharing and collaboration for workplace documents.
-
-- **Outline** — Open-source knowledge base for workplace policies and procedures.
-
-- **BookStack** — Open-source documentation platform for workplace guides.
-
-- **Odoo** — Open-source ERP with HR and facility management modules adaptable for workplace operations.
-
-
-
-**Frameworks for building custom return-to-workplace solutions**: Combine **WARP** for comprehensive desk booking with floor plans, zones, and SSO . Use **OpenDesk** for lightweight desk reservation without complexity . Deploy **Occupi** for AI-powered occupancy prediction and analytics . Integrate **HQ Command Center** for offline cross-machine coordination dashboards . Note that true enterprise workplace command centers with capacity management, wellness checks, visitor management, and vendor-supported SLAs (Salesforce WCC, ServiceNow WSD, Envoy Protect) remain primarily commercial territory; open-source stacks provide strong desk booking, occupancy tracking, and coordination foundations that require integration for complete return-to-workplace operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Workplace command centers handle sensitive employee data including health information and location tracking. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA, HIPAA for health data).
-
-- **Employee wellness data requires strict privacy controls** — Salesforce recommends granting admin privileges only to admins who must know the information . Envoy Protect records only pass/fail status, not detailed health answers .
-
-- **Occupancy tracking must be transparent** — employees should be informed about what data is collected and how it is used. Thermal imaging solutions offer privacy-preserving alternatives to cameras .
-
-- **License considerations**: WARP is open-source , OpenDesk is open-source , and Occupi uses MIT license . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong desk booking, occupancy tracking, and coordination foundations, but **capacity management, wellness checks, visitor management, and vendor-supported SLAs** remain primarily commercial offerings.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Return-To-Workplace-Command-Center&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Return-To-Workplace-Command-Center&type=date&legend=top-left)

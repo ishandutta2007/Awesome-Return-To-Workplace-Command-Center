@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.7)" />
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.8)" />
+    </linearGradient>
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- CSS Keyframe Animations -->
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes pulse-glow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.15); }
+      }
+      @keyframes wave-flow {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes badge-pulse {
+        0%, 100% { fill: #22c55e; }
+        50% { fill: #10b981; filter: drop-shadow(0 0 6px #10b981); }
+      }
+      .bg-grid { opacity: 0.15; stroke: #64748b; stroke-width: 1; }
+      .animated-node { animation: pulse-glow 3s ease-in-out infinite; transform-origin: center; }
+      .animated-wave { stroke-dasharray: 12, 12; animation: wave-flow 6s linear infinite; }
+      .floating-card { animation: float 5s ease-in-out infinite; }
+      .live-dot { animation: badge-pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="340" fill="url(#bg-grad)" rx="16" />
+
+  <!-- Animated Grid Background -->
+  <g class="bg-grid">
+    <path d="M 0,40 L 1200,40 M 0,80 L 1200,80 M 0,120 L 1200,120 M 0,160 L 1200,160 M 0,200 L 1200,200 M 0,240 L 1200,240 M 0,280 L 1200,280" />
+    <path d="M 100,0 L 100,340 M 200,0 L 200,340 M 300,0 L 300,340 M 400,0 L 400,340 M 500,0 L 500,340 M 600,0 L 600,340 M 700,0 L 700,340 M 800,0 L 800,340 M 900,0 L 900,340 M 1000,0 L 1000,340 M 1100,0 L 1100,340" />
+  </g>
+
+  <!-- Background Decorative Nodes & Wave Flow (Layered Behind Text) -->
+  <g opacity="0.35">
+    <path d="M 800 240 Q 950 180 1120 250" fill="none" stroke="url(#text-grad)" stroke-width="3" class="animated-wave" />
+    <circle cx="850" cy="225" r="6" fill="#38bdf8" class="animated-node" />
+    <circle cx="980" cy="195" r="9" fill="#818cf8" class="animated-node" style="animation-delay: 1s;" />
+    <circle cx="1100" cy="245" r="7" fill="#c084fc" class="animated-node" style="animation-delay: 2s;" />
+  </g>
+
+  <!-- Side Illustration Badges (Layered Background Right side) -->
+  <g class="floating-card" transform="translate(860, 45)">
+    <rect width="280" height="150" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5" />
+    <!-- Mini UI Dashboard preview inside card -->
+    <text x="20" y="32" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">WORKPLACE OCCUPANCY</text>
+    <circle cx="245" cy="28" r="5" class="live-dot" />
+    <text x="205" y="32" fill="#22c55e" font-family="system-ui, sans-serif" font-size="11" font-weight="600">84% LIVE</text>
+    
+    <!-- Floor Plan / Desk Booking Mock Graphic -->
+    <rect x="20" y="50" width="70" height="35" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="32" y="72" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11">Desk A1</text>
+    
+    <rect x="105" y="50" width="70" height="35" rx="6" fill="#1e293b" stroke="#22c55e" stroke-width="1" />
+    <text x="117" y="72" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11">Desk A2</text>
+
+    <rect x="190" y="50" width="70" height="35" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1" />
+    <text x="202" y="72" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Desk A3</text>
+
+    <rect x="20" y="98" width="240" height="32" rx="6" fill="url(#pulse-grad)" />
+    <text x="32" y="119" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="600">⚡ Return-To-Office Command Center</text>
+  </g>
+
+  <!-- FOREGROUND TEXT GROUP (Prominent, crisp, completely unobscured) -->
+  <g transform="translate(60, 75)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="310" height="30" rx="15" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="1" />
+    <text x="15" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1">
+      🏢 CURATED ECOSYSTEM &amp; SAAS DIRECTORY
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="#ffffff" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
+      Awesome Return-To-Workplace
+    </text>
+    <text x="0" y="122" fill="url(#text-grad)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
+      Command Center
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="162" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="400">
+      Top Desk Booking, Space Reservation, Occupancy Intelligence &amp; Hybrid Office Platforms
+    </text>
+
+    <!-- Highlight Badges -->
+    <g transform="translate(0, 185)">
+      <rect x="0" y="0" width="130" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="12" y="17" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">📊 SaaS Pricing</text>
+
+      <rect x="140" y="0" width="150" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="152" y="17" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">⚡ Open-Source Repos</text>
+
+      <rect x="300" y="0" width="165" height="26" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="312" y="17" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">🎯 Occupancy Analytics</text>
+    </g>
+  </g>
+</svg>
