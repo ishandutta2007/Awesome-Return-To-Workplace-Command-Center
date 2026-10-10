@@ -21,6 +21,7 @@
 - [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚠️ Privacy & Compliance Disclaimer](#️-privacy--compliance-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [⭐ Star History](#-star-history)
 
 ---
@@ -109,6 +110,21 @@ Refer to [Awesome Lists guidelines](https://github.com/ishandutta2007/Awesome-Aw
 - 🔒 **Data Privacy & Compliance**: Workplace command centers process sensitive employee information (attendance, desk location, check-in timestamps, health survey logs). Implement strong access controls and adhere to GDPR, CCPA, and HIPAA compliance.
 - 👁️ **Transparent Occupancy Intelligence**: Prefer privacy-preserving telemetry (e.g. thermal sensors, anonymous badge taps) over invasive video surveillance.
 - 📜 **Licensing Verification**: Review software licenses (AGPL, MIT, Apache 2.0) before deploying self-hosted components in production environments.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting **Awesome Return-To-Workplace Command Center**! 🌟
+
+If you find this repository helpful for your office reopening, desk booking, or workplace management research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** to contribute new platforms, features, or updates.
+- 📢 **Share it** with your colleagues, dev teams, and workplace operations community.
+- ☕ **Buy me a coffee**: Support ongoing maintenance and curated developer resources via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor%20me-%E2%9D%A4-pink?style=for-the-badge&logo=github" alt="Sponsor on GitHub"/></a>
 
 ---
 
