@@ -53,7 +53,7 @@
 
 ## 🔓 Open-Source GitHub Repositories
 
-*Self-hosted open-source software, desk reservation tools, and occupancy detection projects, **sorted by GitHub Stars_Count (descending)**.*
+*Self-hosted open-source software, desk reservation tools, and occupancy detection projects, **sorted by GitHub_Stars_Count (descending)**.*
 
 - **[Area Occupancy Detection](https://github.com/Hankanman/Area-Occupancy-Detection)** [![GitHub_Stars](https://img.shields.io/github/stars/Hankanman/Area-Occupancy-Detection?style=social)](https://github.com/Hankanman/Area-Occupancy-Detection/stargazers)  
   🧠 **Home Assistant integration to accurately and intelligently track occupancy** of office areas, rooms, and workspaces using multi-sensor topology-aware rules and real-time state engine.
