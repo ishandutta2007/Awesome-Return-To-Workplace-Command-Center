@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Return-To-Workplace-Command-Center"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Return-To-Workplace-Command-Center?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Return-To-Workplace-Command-Center"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Return-To-Workplace-Command-Center?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Return-To-Workplace-Command-Center/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Return-To-Workplace-Command-Center?style=social" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -53,30 +53,30 @@
 
 ## 🔓 Open-Source GitHub Repositories
 
-*Self-hosted open-source software, desk reservation tools, and occupancy detection projects, **sorted by GitHub Star Count (descending)**.*
+*Self-hosted open-source software, desk reservation tools, and occupancy detection projects, **sorted by GitHub Stars_Count (descending)**.*
 
-- **[Area Occupancy Detection](https://github.com/Hankanman/Area-Occupancy-Detection)** [![GitHub stars](https://img.shields.io/github/stars/Hankanman/Area-Occupancy-Detection?style=social)](https://github.com/Hankanman/Area-Occupancy-Detection/stargazers)  
+- **[Area Occupancy Detection](https://github.com/Hankanman/Area-Occupancy-Detection)** [![GitHub_Stars](https://img.shields.io/github/stars/Hankanman/Area-Occupancy-Detection?style=social)](https://github.com/Hankanman/Area-Occupancy-Detection/stargazers)  
   🧠 **Home Assistant integration to accurately and intelligently track occupancy** of office areas, rooms, and workspaces using multi-sensor topology-aware rules and real-time state engine.
 
-- **[WARP (Workspace Autonomous Reservation Program)](https://github.com/sebo-b/warp)** [![GitHub stars](https://img.shields.io/github/stars/sebo-b/warp?style=social)](https://github.com/sebo-b/warp/stargazers)  
+- **[WARP (Workspace Autonomous Reservation Program)](https://github.com/sebo-b/warp)** [![GitHub_Stars](https://img.shields.io/github/stars/sebo-b/warp?style=social)](https://github.com/sebo-b/warp/stargazers)  
   🚀 **Comprehensive open-source hybrid workspace reservation system**. Supports desk & parking stall booking, visual interactive floor plans with zones, SAML 2.0 / LDAP / Azure AD / OIDC SSO, iCal feed subscriptions, PWA support, auto-booking, and Excel reports.
 
-- **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)** [![GitHub stars](https://img.shields.io/github/stars/kanwalnainsingh/OpenDesk?style=social)](https://github.com/kanwalnainsingh/OpenDesk/stargazers)  
+- **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)** [![GitHub_Stars](https://img.shields.io/github/stars/kanwalnainsingh/OpenDesk?style=social)](https://github.com/kanwalnainsingh/OpenDesk/stargazers)  
   💻 **Open-source microservices-based desk reservation system** for hybrid offices. Allows site layout creation, date-wise desk capacity allocation, employee booking dashboards, and reservation alerts.
 
-- **[Mensam](https://github.com/jumper149/mensam)** [![GitHub stars](https://img.shields.io/github/stars/jumper149/mensam?style=social)](https://github.com/jumper149/mensam/stargazers)  
+- **[Mensam](https://github.com/jumper149/mensam)** [![GitHub_Stars](https://img.shields.io/github/stars/jumper149/mensam?style=social)](https://github.com/jumper149/mensam/stargazers)  
   🪑 **Open-source desk-booking web application** for modern hybrid teams looking to reserve seats and workplace equipment efficiently.
 
-- **[Simple Desk Booking](https://github.com/opariltay/simple-desk-booking)** [![GitHub stars](https://img.shields.io/github/stars/opariltay/simple-desk-booking?style=social)](https://github.com/opariltay/simple-desk-booking/stargazers)  
+- **[Simple Desk Booking](https://github.com/opariltay/simple-desk-booking)** [![GitHub_Stars](https://img.shields.io/github/stars/opariltay/simple-desk-booking?style=social)](https://github.com/opariltay/simple-desk-booking/stargazers)  
   📅 **Lightweight full-day seat booking software** enabling fast return-to-office workspace planning and simple seat reservations.
 
-- **[Book a Seat](https://github.com/pafavero/book_a_seat)** [![GitHub stars](https://img.shields.io/github/stars/pafavero/book_a_seat?style=social)](https://github.com/pafavero/book_a_seat/stargazers)  
+- **[Book a Seat](https://github.com/pafavero/book_a_seat)** [![GitHub_Stars](https://img.shields.io/github/stars/pafavero/book_a_seat?style=social)](https://github.com/pafavero/book_a_seat/stargazers)  
   🎨 **React-based space management and desk reservation app** designed for office seat assignment and hybrid workplace planning.
 
-- **[Office Desk Booking with Apps Script](https://github.com/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script)** [![GitHub stars](https://img.shields.io/github/stars/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script?style=social)](https://github.com/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script/stargazers)  
+- **[Office Desk Booking with Apps Script](https://github.com/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script)** [![GitHub_Stars](https://img.shields.io/github/stars/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script?style=social)](https://github.com/devoteam-g-cloud/Office-Desk-Booking-with-Apps-Script/stargazers)  
   📊 **Google Workspace & Apps Script solution** for flexible office desk reservations and Covid/RTO capacity management.
 
-- **[Occupi](https://github.com/COS301-SE-2024/occupi)** [![GitHub stars](https://img.shields.io/github/stars/COS301-SE-2024/occupi?style=social)](https://github.com/COS301-SE-2024/occupi/stargazers)  
+- **[Occupi](https://github.com/COS301-SE-2024/occupi)** [![GitHub_Stars](https://img.shields.io/github/stars/COS301-SE-2024/occupi?style=social)](https://github.com/COS301-SE-2024/occupi/stargazers)  
   🔮 **AI-powered office occupancy prediction & analytics platform**. Features daily occupancy forecasting, real-time desk tracking, cross-platform apps (web/mobile/desktop), and Go backend.
 
 ---
